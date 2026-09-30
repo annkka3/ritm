@@ -1,0 +1,14 @@
+{
+  "name": "ritm",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "vendor": "esbuild tools/firebase-entry.js --bundle --format=esm --minify --target=es2020 --outfile=vendor/firebase.js",
+    "icons": "python3 tools/make_icons.py",
+    "serve": "python3 -m http.server 8766"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "firebase": "12.19.0"
+  }
+}
