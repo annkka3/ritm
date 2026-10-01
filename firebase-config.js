@@ -1,5 +1,11 @@
-// Firebase settings for sync between devices.
-// Firebase console → Project settings → Your apps → Web app → "SDK setup and configuration" → Config.
-// Paste the object here instead of null. These values are not secret: access to data is controlled by the Firestore rules (firestore.rules).
-// While this is null, the app works without an account and keeps data only in this browser.
-export const firebaseConfig = null;
+// Firebase settings for sync between devices (project ritm-7514e).
+// These values are not secret: access to data is controlled by the Firestore rules (firestore.rules).
+// Set to null to run the app without an account, keeping data only in this browser.
+export const firebaseConfig = {
+  apiKey: 'AIzaSyA9wvk_sCmNL0r1ggQXlTmfRhcbYLdzpDk',
+  authDomain: 'ritm-7514e.firebaseapp.com',
+  projectId: 'ritm-7514e',
+  storageBucket: 'ritm-7514e.firebasestorage.app',
+  messagingSenderId: '1061396302729',
+  appId: '1:1061396302729:web:b649bc6b5f5b04372faf58'
+};

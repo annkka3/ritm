@@ -1,6 +1,6 @@
 // Offline shell: the app opens without internet once it has been loaded one time.
 // Bump VERSION on every deploy so phones pick up the new files.
-const VERSION = 'ritm-2026-09-30-2';
+const VERSION = 'ritm-2026-10-01-1';
 const SHELL = [
   './', './index.html', './app.js', './firebase-config.js', './vendor/firebase.js', './manifest.webmanifest',
   './fonts/fonts.css', './fonts/geologica-cyrillic.woff2', './fonts/geologica-latin.woff2',
